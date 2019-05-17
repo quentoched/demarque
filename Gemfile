@@ -9,13 +9,8 @@ ruby '2.6.2'
 ##============================================================##
 gem "rails", "5.2.3"
 gem "bootsnap", require: false
-gem "mysql2"
 gem "puma"
 gem "figaro"
-gem "uglifier"
-gem "coffee-rails"
-gem "jquery-rails"
-gem "turbolinks"
 gem "jbuilder"
 
 group :development do
