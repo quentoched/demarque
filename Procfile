@@ -1,1 +1,1 @@
-puma: rails s puma -b 0.0.0.0 -p $PORT
+puma: rails s puma -b 0.0.0.0 -p 5000

@@ -1,24 +1,13 @@
-# README
+Hi there,
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is just a little test to check wether or not an ISBN number is valid.
 
-Things you may want to cover:
+To launch this project, you must have installed ruby 2.6.2.
 
-* Ruby version
+Before you can start the project :
+- clone it from this git repo
+- install the gems with : gem install bundler && bundle
+- start the server with : foreman start
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Then, you can go to your browser and call : http://lvh.me:5000/api/v1/isbn/:code/validate
+where :code is an ISBN number to check.

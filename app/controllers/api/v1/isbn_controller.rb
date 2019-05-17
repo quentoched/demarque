@@ -10,7 +10,7 @@ class Api::V1::IsbnController < Api::ApiController
         raise "ISBN #{@isbn_code} is not valid"
       end
     rescue Exception => e
-      return render :json =>{:errors=>e.message}, :status=> 402
+      return render :json =>{:errors=>e.message}, :status=> 400
     end
   end
 
